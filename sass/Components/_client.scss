@@ -1,0 +1,43 @@
+#client{
+    background: url(../images/banner1.png) no-repeat center / cover;
+    background-attachment: fixed;
+    padding: 100px 0 50px 0;
+    .client_main{
+        .client_item{
+            margin-bottom: 60px;
+            .client_img{
+                margin-right: 30px;
+            }
+            .client_text{
+                h4{
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    color: #333;
+                    margin-bottom: 10px;
+                }
+                span{
+                    font-size: 13px;
+                    color: #999;
+                    font-style: italic;
+                }
+                p{
+                    margin-top: 37px;
+                    font-size: 13px;
+                    color: #999;
+                    width: 370px;
+                    line-height: 23px;
+                    position: relative;
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        top: -30%;
+                        left: 0;
+                        width: 60px;
+                        height: 3px;
+                        background-color: #f38181;
+                    }
+                }
+            }
+        }
+    }
+}

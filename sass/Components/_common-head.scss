@@ -1,0 +1,33 @@
+.common_head{
+    h4{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+    h3{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 80px;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            bottom: -120%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 3px;
+            background-color: #f38181;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+}
+    }
+    p{
+        font-size: 15px;
+        padding: 0 20px;
+        line-height: 28px;
+        color: #999999;
+    }
+}

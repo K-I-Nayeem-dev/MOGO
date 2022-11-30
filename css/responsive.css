@@ -1,0 +1,937 @@
+@media(max-width:575.98px){
+    .container{
+        width: 500px;
+    }
+    nav a img {
+        width: 120px;
+      }
+    nav ul{
+        margin-top: 20px;
+        padding: 10px 0;
+        background-color: #000;
+    }
+    nav ul li a{
+        width: 97.1%;
+       font-size: 12px; 
+       text-align: center;
+       padding: 15px 0;
+       margin: 0 auto;
+    }
+    nav ul li a:hover{
+        background-color: #fff;
+        color: #000 !important;
+    }
+    nav ul li a:hover::after {
+        width: 20%;
+        left: 40%;
+        height: 2px;
+        opacity: 1;
+        background-color: #000;
+      }
+      .menu_icon{
+        text-align: center;
+      }
+      .menu_icon i:hover{
+        color: #000;
+      }
+      #banner .ban_text h2 {
+        font-size: 40px;
+      }
+      #banner .ban_text h1 {
+       font-size: 70px;
+       width: 500px;
+      }
+      #banner .ban_text .ban_btn a {
+        width: 120px;
+        font-size: 12px;
+      }
+      #banner .ban_main ul li {
+        width: 100%;
+      }
+      #banner .ban_main ul li::after {
+        width: 90%;
+      }
+      #banner .ban_main ul li:hover::before {
+        width: 90%;
+      }
+      #banner .ban_main ul li button{
+       font-size: 20px;
+    }
+    .common_head{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .common_head h4{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .common_head h3{
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .common_head h3::after {
+        bottom: -60%;
+      }
+    .common_head p{
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #about{
+        padding: 30px 0;
+    }
+    #about .about_main{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+    #about .about_main .about_item {
+        width: 90%;
+        margin-bottom: 30px;
+      }
+      #about .about_main .about_item .about_img .img_over .img_over_text i {
+        font-size: 15px;
+      }
+      #about .about_main .about_item .about_img .img_over .img_over_text h5 {
+        font-size: 16px;
+      }
+      #counter{
+        display: flex;
+        padding: 0;
+        background-color: #000;
+      }
+      #counter .counter_text{
+        padding: 15px;
+        border: none;
+        border-left: 1px solid #fff;
+      }
+      #counter .counter_text span {
+        font-size: 20px;
+      }
+      #counter .counter_text h6 {
+        font-size: 14px;
+      }
+      #work .work_main .work_item {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #999;
+        padding-bottom: 20px;
+      }
+      #work .work_main .work_item .work_icon {
+        font-size: 20px;
+      }
+      #work .work_main .work_itemm {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #999;
+        margin-bottom: 30px;
+      }
+      #work .work_main .work_itemm .work_icon {
+        font-size: 20px;
+      }
+       #uniqe .uniqe_img img {
+        width: 240px;
+        margin-top: 20px;
+      }
+      #uniqe .uniqe_img .uniqe_over img{
+       width: 150px;
+      }
+      #uniqe .uniqe_img .uniqe_over {
+        bottom: -40%;
+      }
+      #service{
+        padding: 70px 0 40px 0;
+      }
+      #service .ser_img {
+        margin-top: 30px;
+      }
+      .ser_accrodian{
+        margin-top: 40px;
+      }
+      #quote{
+        padding: 40px 0;
+      }
+      #quote .quote_slide .prev {
+        top: 50%;
+        right: 3%;
+      }
+      #quote .quote_slide .next {
+        top: 50%;
+        left: 4%;
+      }
+      #quote .quote_main .quote_item .quote_icon {
+        padding: 20px;
+        border: 2px solid #95e1d3;
+        height: 65px;
+        margin-right: 15px;
+      }
+      #quote .quote_main {
+        width: 500px;
+        margin: 0 auto;
+      }
+      #quote .quote_main .quote_item .quote_icon i {
+        font-size: 20px;
+        color: #95e1d3;
+      }
+      #quote .quote_main .quote_item .quote_text p {
+        width: 400px;
+        margin: 0 auto;
+        font-size: 13px;
+      }
+      #quote .quote_main .quote_item .quote_text h6 {
+        font-size: 15px;
+        font-family: "Kaushan Script", cursive;
+        margin-left: 75px;
+        position: relative;
+        margin-top: 10px;
+      }
+      #quote .quote_main .quote_item .quote_text h6::after {
+        left: -10%;
+      }
+      #team {
+        padding: 40px 0 30px 0
+      }
+      #team .team_main {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+      #team .team_main .team_item {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+      #team .team_main .team_item .team_img .team_over ul li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+      }
+      #brand{
+        padding: 30px 0;
+      }
+      #brand img{
+        width: 100%;
+        margin:  0 auto;
+      }
+      #our_work{
+       margin-top: 50px;
+      }
+      #our_work .our_main {
+       margin-top: 30px;
+      }
+      #testi {
+        padding: 60px 0;
+      }
+      #testi .quote_slide .preev {
+        right: 3.5%;
+    }
+    #testi .quote_slide .nexxt {
+        left: 5.4%;
+    }
+    #testi .testi_main {
+        width: 500px;
+        margin: 0 auto;
+    }
+    #testi .testi_main .quote_item .quote_img {
+        width: 100px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+    #testi .testi_main .quote_item .quote_img img {
+        width: 100%;
+        padding: 5px;
+    }
+    #testi .testi_main .quote_item .quote_text {
+        width: 350px;
+        margin-left: 10px;
+        margin-top: 30px;
+      }
+    #testi .testi_main .quote_item .quote_text p {
+        padding: 0;
+        font-size: 12px;
+      }
+      #testi .testi_main .quote_item .quote_text h6 {
+        margin-left: 50px;
+        font-size: 16px;
+      }
+      #testi .testi_main .quote_item .quote_text h6::after {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: -11%;
+        width: 40px;
+      }
+      #client {
+        padding: 50px 0 10px 0;
+      }
+      #client .client_main{
+        margin-top: 40px;
+      }
+      #client .client_main .client_item .client_img {
+        margin-right: 15px;
+      }
+      #client .client_main .client_item .client_img img{
+        width: 100px;
+      }
+      #client .client_main .client_item .client_text h4 {
+        margin-bottom: 5px;
+      }
+      #client .client_main .client_item .client_text span {
+        font-size: 13px;
+        color: #999;
+        font-style: italic;
+      }
+      #client .client_main .client_item .client_text p {
+        margin-top: 25px;
+      }
+      #client .client_main .client_item .client_text p::after {
+        top: -20%;
+        width: 50px;
+      }
+      #blog {
+        padding: 60px 0 50px 0;
+      }
+      #blog .blog_main {
+        width: 90%;
+        margin: 0 auto;
+      }
+      #blog .blog_main .blog_item {
+        margin-bottom: 20px;
+      }
+      #map {
+        padding: 20px 0 40px 0;
+        }
+        #map .map_text i {
+            font-size: 20px;
+          }
+          #map .map_text h4 {
+            font-size: 20px;
+          }
+          #map .map_text h4::after {
+            bottom: -15px;
+            width: 60px;
+          }
+          footer {
+            padding: 30px 0 0px 0;
+          }
+          footer .footer_main .footer_logo img{
+            width: 100px;
+          }
+          footer .footer_main .footer_1{
+            margin-bottom: 30px;
+          }
+          footer .footer_main .footer_2{
+            margin-bottom: 30px;
+          }
+          footer .footer_main .footer_3{
+            margin-bottom: 30px;
+          }
+}
+@media(min-width:576px) and (max-width:767px){
+    nav a img {
+        width: 150px;
+      }
+    nav ul{
+        margin-top: 20px;
+        padding: 10px 0;
+        background-color: #000;
+    }
+    nav ul li{
+        padding: 15px 0;
+    }
+    nav ul li a{
+        width: 91.1%;
+       font-size: 14px; 
+       text-align: center;
+       padding: 15px 0;
+       margin: 0 auto;
+    }
+    nav ul li a:hover{
+        background-color: #fff;
+        color: #000 !important;
+    }
+    nav ul li a:hover::after {
+        width: 20%;
+        left: 40%;
+        height: 2px;
+        opacity: 1;
+        background-color: #000;
+      }
+      .menu_icon{
+        text-align: center;
+      }
+      .menu_icon i{
+        font-size: 18px;
+      }
+      .menu_icon i:hover{
+        color: #000;
+      }
+      #banner .ban_text h2 {
+        font-size: 60px;
+      }
+      #banner .ban_text h1 {
+        width: 550px;
+       font-size: 80px;
+      }
+      #banner .ban_text .ban_btn a {
+        width: 120px;
+        font-size: 12px;
+      }
+      #banner .ban_main ul li {
+        width: 100%;
+      }
+      #banner .ban_main ul li::after {
+        width: 90%;
+      }
+      #banner .ban_main ul li:hover::before {
+        width: 90%;
+      }
+      #banner .ban_main ul li button{
+       font-size: 20px;
+    }
+    .common_head{
+        margin: 0 auto;
+    }
+    .common_head h4{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .common_head h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .common_head h3::after {
+        bottom: -60%;
+      }
+    .common_head p{
+        margin: 0 auto;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #about{
+        padding: 30px 0;
+    }
+    #about .about_main{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+    #about .about_main .about_item {
+        width: 95%;
+        margin-bottom: 30px;
+      }
+      #about .about_main .about_item .about_img .img_over .img_over_text i {
+        font-size: 20px;
+      }
+      #about .about_main .about_item .about_img .img_over .img_over_text h5 {
+        font-size: 18px;
+      }
+      #counter{
+        display: flex;
+        padding: 0;
+        background-color: #000;
+      }
+      #counter .counter_text{
+        padding: 15px;
+        border: none;
+      }
+      #counter .counter_text span {
+        font-size: 28px;
+      }
+      #counter .counter_text h6 {
+        font-size: 12px;
+      }
+      #work .work_main .work_item {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #999;
+        padding-bottom: 20px;
+      }
+      #work {
+        padding: 40px 0;
+      }
+      #work .work_main .work_item .work_icon {
+        font-size: 25px;
+      }
+      #work .work_main .work_itemm {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #999;
+        margin-bottom: 30px;
+      }
+      #work .work_main .work_itemm .work_icon {
+        font-size: 25px;
+      }
+      #uniqe .uniqe_img img {
+        width: 300px;
+        margin-top: 20px;
+      }
+      #uniqe .uniqe_img .uniqe_over img{
+       width: 180px;
+      }
+      #uniqe .uniqe_img .uniqe_over {
+        bottom: -42%;
+      }
+      #service{
+        padding: 70px 0 40px 0;
+      }
+      #service .ser_main {
+        margin-top: 30px;
+      }
+      #service .ser_img {
+        margin-top: 20px;
+      }
+      .ser_accrodian{
+        margin-top: 40px;
+      }
+      #quote{
+        padding: 40px 0;
+      }
+      #quote .quote_slide .prev {
+        top: 50%;
+        right: 8%;
+      }
+      #quote .quote_slide .next {
+        top: 50%;
+        left: 8%;
+      }
+      #quote .quote_main .quote_item .quote_icon {
+        padding: 20px;
+        border: 2px solid #95e1d3;
+        height: 70px;
+        margin-right: 15px;
+      }
+      #quote .quote_main {
+        width: 500px;
+        margin: 0 auto;
+      }
+      #quote .quote_main .quote_item .quote_icon i {
+        font-size: 25px;
+      }
+      #quote .quote_main .quote_item .quote_text p {
+        width: 400px;
+        margin: 0 auto;
+        font-size: 13px;
+      }
+      #quote .quote_main .quote_item .quote_text h6 {
+        font-size: 15px;
+        font-family: "Kaushan Script", cursive;
+        margin-left: 75px;
+        position: relative;
+        margin-top: 10px;
+      }
+      #quote .quote_main .quote_item .quote_text h6::after {
+        left: -13%;
+      }
+      #team {
+        padding: 40px 0 30px 0
+      }
+      #team .team_main {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+      #team .team_main .team_item {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+      #team .team_main .team_item .team_img .team_over ul li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+      }
+      #brand{
+        padding: 30px 0;
+      }
+      #brand img{
+        width: 100%;
+        margin:  0 auto;
+      }
+      #our_work{
+        margin-top: 50px;
+       }
+       #our_work .our_main {
+        width: 95%;
+        margin:  0 auto;
+        margin-top: 30px;
+       }
+       #testi {
+        background-color: #000;
+        padding: 40px 0;
+      }
+      #testi .testi_main {
+        width: 600px;
+        margin: 0 auto;
+        margin-left: -45px;
+    }
+      #testi .quote_slide .preev {
+        right: 3.5%;
+    }
+    #testi .quote_slide .nexxt {
+        left: 5.4%;
+    }
+    #testi .testi_main .quote_item .quote_img {
+        width: 140px;
+        margin-right: 0;
+    }
+    #testi .testi_main .quote_item .quote_img img {
+        width: 100%;
+        padding: 5px;
+    }
+    #testi .testi_main .quote_item .quote_text {
+        width: 550px;
+        margin-left: 20px;
+        margin-top: 30px;
+      }
+    #testi .testi_main .quote_item .quote_text p {
+        padding: 0;
+        font-size: 12px;
+      }
+      #testi .testi_main .quote_item .quote_text h6 {
+        margin-left: 50px;
+        font-size: 16px;
+      }
+      #testi .testi_main .quote_item .quote_text h6::after {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: -9%;
+        width: 40px;
+      }
+      #client {
+        padding: 50px 0 10px 0;
+      }
+      #client .client_main{
+        margin-top: 45px;
+      }
+      #client .client_main .client_item .client_img {
+        margin-right: 25px;
+      }
+      #client .client_main .client_item .client_img img{
+        width: 110px;
+      }
+      #client .client_main .client_item .client_text h4 {
+        margin-bottom: 5px;
+      }
+      #client .client_main .client_item .client_text span {
+        font-size: 13px;
+        color: #999;
+        font-style: italic;
+      }
+      #client .client_main .client_item .client_text p {
+        margin-top: 25px;
+      }
+      #client .client_main .client_item .client_text p::after {
+        top: -20%;
+        width: 50px;
+      }
+      #blog {
+        padding: 40px 0 40px 0;
+      }
+      #blog .blog_main {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 15px;
+      }
+      #blog .blog_main .blog_item {
+        margin-bottom: 20px;
+      }
+      #map {
+        padding: 20px 0 40px 0;
+        }
+        #map .map_text i {
+            font-size: 20px;
+          }
+          #map .map_text h4 {
+            font-size: 20px;
+          }
+          #map .map_text h4::after {
+            bottom: -15px;
+            width: 60px;
+          }
+          footer {
+            padding: 30px 0 0px 0;
+          }
+          footer .footer_main .footer_logo img{
+            width: 100px;
+          }
+          footer .footer_main .footer_1{
+            margin-bottom: 30px;
+          }
+          footer .footer_main .footer_2{
+            margin-bottom: 40px;
+          }
+          footer .footer_main .footer_3{
+            margin-bottom: 40px;
+          }
+}
+@media(min-width:768px) and (max-width:991px){
+    nav  img {
+        width: 180px;
+      }
+    nav ul{
+        margin-top: 20px;
+        padding: 10px 0;
+    }
+    nav ul li{
+        padding: 15px 0;
+    }
+    nav ul li a{
+       font-size: 13px; 
+       text-align: center;
+       padding: 15px 0;
+       margin: 0 auto;
+    }
+    nav ul li a:hover{
+        color: #000 !important;
+    }
+    nav ul li a:hover::after {
+        width: 80%;
+        left: 11%;
+        height: 2px;
+        opacity: 1;
+        background-color: #000;
+    }
+    .menu_icon{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+      .menu_icon i{
+        font-size: 14px;
+      }
+      .menu_icon i:hover{
+        color: #000;
+      }
+      #banner .ban_text h2 {
+        font-size: 70px;
+      }
+      #banner .ban_text h1 {
+        width: 600px;
+       font-size: 100px;
+      }
+      #banner .ban_text .ban_btn a {
+        width: 120px;
+        font-size: 12px;
+      }
+      #banner .ban_main ul li {
+        width: 100%;
+      }
+      #banner .ban_main ul li::after {
+        width: 90%;
+      }
+      #banner .ban_main ul li:hover::before {
+        width: 90%;
+      }
+      #banner .ban_main ul li button{
+       font-size: 20px;
+    }
+    .common_head{
+        margin: 0 auto;
+    }
+    .common_head h4{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .common_head h3{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .common_head h3::after {
+        bottom: -60%;
+      }
+    .common_head p{
+        margin: 0 auto;
+        font-size: 13px;
+        line-height: 22px;
+    }
+    #about{
+        padding: 30px 0;
+    }
+    #about .about_main{
+        margin-top: 40px;
+      }
+      #about .about_main .about_item .about_img .img_over .img_over_text i {
+        font-size: 18px;
+      }
+      #about .about_main .about_item .about_img .img_over .img_over_text h5 {
+        font-size: 14px;
+      }
+      #counter{
+        background-color: #000;
+      }
+      #counter .counter_text{
+        padding: 20px 0;
+      }
+      #counter .counter_text span {
+        font-size: 60px;
+      }
+      #counter .counter_text h6 {
+        font-size: 10.5px;
+      }
+      #work {
+        padding: 40px 0;
+      }
+      #uniqe .uniqe_img img {
+        width: 400px;
+        margin-top: 20px;
+      }
+      #uniqe .uniqe_img .uniqe_over img{
+       width: 240px;
+      }
+      #uniqe .uniqe_img .uniqe_over {
+        bottom: -42%;
+      }
+      #service{
+        width: 900px;
+        margin: 0 auto;
+        padding: 70px 0 40px 0;
+      }
+      #service .ser_main {
+        margin-top: 30px;
+      }
+      #service .accordion-item {
+        margin-bottom: 17px;
+        border: 1px solid #e5e5e5;
+      }
+      #service .ser_text i {
+        font-size: 25px;
+        color: #95e1d3;
+        margin-right: 13px;
+        }
+      #service .ser_text h4 {
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      #service .accordion-body {
+        font-size: 12px;
+        line-height: 24px;
+      }
+      #quote{
+        padding: 40px 0;
+      }
+      #quote .quote_slide .prev {
+        top: 50%;
+        right: 8%;
+      }
+      #quote .quote_slide .next {
+        top: 50%;
+        left: 8%;
+      }
+      #quote .quote_main .quote_item .quote_icon {
+        padding: 20px;
+        border: 2px solid #95e1d3;
+        height: 70px;
+        margin-right: 15px;
+      }
+      #quote .quote_main {
+        width: 500px;
+        margin: 0 auto;
+      }
+      #quote .quote_main .quote_item .quote_icon i {
+        font-size: 25px;
+      }
+      #quote .quote_main .quote_item .quote_text p {
+        width: 400px;
+        margin: 0 auto;
+        font-size: 13px;
+      }
+      #quote .quote_main .quote_item .quote_text h6 {
+        font-size: 15px;
+        font-family: "Kaushan Script", cursive;
+        margin-left: 75px;
+        position: relative;
+        margin-top: 10px;
+      }
+      #quote .quote_main .quote_item .quote_text h6::after {
+        left: -13%;
+      }
+      #team {
+        padding: 40px 0 30px 0
+      }
+      #team .team_main {
+        margin-top: 40px;
+      }
+      #team .team_main .team_item .team_img .team_over ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+      }
+      #brand{
+        padding: 40px 0;
+      }
+      #brand img{
+        width: 100%;
+        margin:  0 auto;
+      }
+    #testi {
+     background-color: #000;
+     padding: 40px 0;
+   }
+   #testi .testi_main {
+     width: 750px;
+     margin: 0 auto;
+     margin-left: -20px;
+ }
+   #testi .quote_slide .preev {
+     right: 3.5%;
+ }
+ #testi .quote_slide .nexxt {
+     left: 5.4%;
+ }
+ #testi .testi_main .quote_item .quote_img {
+     width: 140px;
+     margin-right: 0;
+ }
+ #testi .testi_main .quote_item .quote_img img {
+     width: 100%;
+     padding: 5px;
+ }
+ #testi .testi_main .quote_item .quote_text {
+     width: 700px;
+     margin-left: 20px;
+     margin-top: 30px;
+   }
+ #testi .testi_main .quote_item .quote_text p {
+     padding: 0;
+     font-size: 13px;
+   }
+   #testi .testi_main .quote_item .quote_text h6 {
+     color: #fff;
+     margin-left: 50px;
+     font-size: 16px;
+   }
+   #testi .testi_main .quote_item .quote_text h6::after {
+     position: absolute;
+     content: "";
+     top: 50%;
+     left: -6%;
+     width: 40px;
+   }
+   footer {
+    padding: 30px 0 0px 0;
+  }
+  footer .footer_main .footer_logo img{
+    width: 100px;
+  }
+  footer .footer_main .footer_1{
+    margin-bottom: 30px;
+  }
+  footer .footer_main .footer_2{
+    margin-bottom: 40px;
+  }
+  footer .footer_main .footer_3{
+    margin-bottom: 40px;
+  }
+}
+@media(min-width:992px) and (max-width:1199px){
+    
+}
+@media(min-width:1200px) and (max-width:1399px){
+    
+}
+@media(min-width:1400px){
+
+}

@@ -1,0 +1,25 @@
+#service{
+    padding: 100px 0 110px 0;
+    .ser_main{
+        margin-top: 80px;
+    }
+    .ser_text{
+        i{
+            font-size: 30px;
+            color: #95e1d3;
+            margin-right: 13px;
+        }
+        h4{
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+    .accordion-item{
+        margin-bottom: 6px;
+        border: 1px solid #e5e5e5;
+    }
+    .accordion-body{
+        font-size: 14px;
+    }
+}

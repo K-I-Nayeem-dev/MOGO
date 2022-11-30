@@ -1,0 +1,80 @@
+#quote{
+    padding: 70px 0;
+    background-color: #f8f8f8;
+    position: relative;
+    .quote_slide{
+        .prev{
+            position: absolute;
+            top: 50%;
+            right: 7.5%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            color: #bababa;
+            font-size: 20px;
+            cursor: pointer;
+            z-index: 1;
+        }
+        .next{
+            position: absolute;
+            top: 50%;
+            left: 8.4%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            color: #bababa;
+            font-size: 20px;
+            cursor: pointer;
+            z-index: 1;
+        }
+    }
+    .quote_main{
+        width: 985px;
+        margin: 0 auto;
+        .quote_item{
+            .quote_icon{
+                padding: 16px 16px 10px 16px;
+                border: 2px solid #95e1d3;
+                margin-right: 50px;
+                i{
+                    font-size: 65px;
+                    color: #95e1d3;
+
+                }
+            }
+            .quote_text{
+                p{
+                    font-size: 18px;
+                    font-weight: 300;
+                    margin-bottom: 23px;
+                    color: #bababa;
+                    font-style: italic;
+                }
+                h6{
+                    font-size: 18px;
+                    font-family: 'Kaushan Script', cursive;
+                    margin-left: 75px;
+                    position: relative;
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        top: 50%;
+                        left: -5.5%;
+                        width: 60px;
+                        height: 3px;
+                        background-color: #f38181;
+                        transform: translate(-50%, -50%);
+                        -webkit-transform: translate(-50%, -50%);
+                        -moz-transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                        -o-transform: translate(-50%, -50%);
+}
+                }
+            }
+        }
+    }
+}
